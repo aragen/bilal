@@ -10,8 +10,8 @@ class Kemenag extends Method
      * @var array<float>
      */
     protected $angles = [
-        'fajr' => 18.0,
-        'isha' => 17.0,
+        'fajr' => 20.0,
+        'isha' => 18.0,
     ];
     /**
      * @var float
