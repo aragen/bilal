@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "94305c97d0490a8c0a7a69594e02519a",
+    "content-hash": "d2a5160868272c6aacf0d0032c8600d3",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -121,6 +121,43 @@
                 "schedule"
             ],
             "time": "2018-06-06T03:12:17+00:00"
+        },
+        {
+            "name": "geniusts/prayer-times",
+            "version": "1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/GeniusTS/prayer-times.git",
+                "reference": "2fd26199add08866cc9c39d8101d54fb04ff191d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/GeniusTS/prayer-times/zipball/2fd26199add08866cc9c39d8101d54fb04ff191d",
+                "reference": "2fd26199add08866cc9c39d8101d54fb04ff191d",
+                "shasum": ""
+            },
+            "require": {
+                "nesbot/carbon": "^1.22",
+                "php": ">=7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "GeniusTS\\PrayerTimes\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Abdul-Kader Zein-Eddin",
+                    "email": "aboudeh1987@gmail.com"
+                }
+            ],
+            "description": "A PHP package to calculate prayer times",
+            "time": "2017-08-01T12:22:24+00:00"
         },
         {
             "name": "illuminate/auth",
